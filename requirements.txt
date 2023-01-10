@@ -1,0 +1,4 @@
+torch
+torch-model-archiver~=0.6.1
+torch-workflow-archiver~=0.2.5
+efficientnet_pytorch~=0.7.1

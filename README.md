@@ -88,24 +88,12 @@ torchserve-efficientnet
 curl --location --request GET 'http://127.0.0.1:8081/models'
 ```
 
-**Result**
- 
-![Status models](./examples/models-screenshot.png)
-
 **Code:** Request on efficientnet-b4-deepfake - we pass it an original face image
 ```shell
 curl http://127.0.0.1:8080/predictions/efficientnet-b4-deepfake -T ./examples/original.png
 ```
 
-**Result**
-
-![Result original face](./original-result-screenshot.png)
-
 **Code:** Example 3 - Request on efficientnet-b4-deepfake - we pass it a fake face image
 ```shell
 curl http://127.0.0.1:8080/predictions/efficientnet-b4-deepfake -T ./examples/fake.png
 ```
-
-**Result**
-
-![Result fake face](./examples/fake-result-screenshot.png)

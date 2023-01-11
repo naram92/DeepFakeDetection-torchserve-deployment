@@ -1,6 +1,6 @@
 # DeepFakeDetection-torchserve-deployment
 
-In this repository, I'll show how we can deploy [deepfake detection](https://github.com/naram92/DeepFakeDetection) model with torchserve.
+In this repository, I present the process of deploying a [deepfake detection](https://github.com/naram92/DeepFakeDetection) model via the use of TorchServe.
 
 ## Environment
 
